@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(facedetect.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  facedetect.cpp
+facedetect.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) int * __cdecl facedetect_multiview_reinforce(unsigned char *,unsigned char *,int,int,int,float,int,int,int,int)" (__imp_?facedetect_multiview_reinforce@@YAPAHPAE0HHHMHHHH@Z)，该符号在函数 _main 中被引用
+F:\facedetect\facedetect\Debug\dll4.dll : fatal error LNK1120: 1 个无法解析的外部命令
